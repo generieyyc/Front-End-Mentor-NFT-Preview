@@ -1,0 +1,103 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  min-width: 100vh;
+  min-height: 100vh;
+  display: grid;
+  place-content: center;
+  background-color: hsl(217, 54%, 11%)
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  border: hsl(215, 32%, 27%);
+  width: 40vh;
+  background-color: hsl(216, 50%, 16%);
+}
+
+.container-item {
+  display: flex;
+  flex-direction: row;
+  height: 8vh;
+}
+
+.count {
+  justify-content: space-between;
+  border-bottom: solid 2px hsl(215, 32%, 27%);
+}
+
+.credits {
+  align-items: center;
+}
+
+img {
+  max-width: 100%;
+  width: 100%;
+  height: auto;
+}
+
+h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: hsl(0, 0%, 100%);
+  font-weight: 600;
+  
+}
+
+p {
+  color: hsl(215, 51%, 70%);
+  font-size: 1.1rem;
+  font-family: arial;
+  line-height: 1.8em;
+}
+
+.amount, .days {
+  display: flex;
+  flex-direction: row;
+  width: 50%;
+  align-items: center;
+}
+
+.days {
+  justify-content: flex-end;
+}
+
+#amt {
+  color: hsl(178, 100%, 50%);
+  font-weight: 600;
+}
+
+#ethLogo, #clock {
+  width: 10%;
+  height: 30%;
+  margin-right: 5px;
+}
+
+#three, #create {
+  font-size: 0.95rem;
+}
+
+#avatar {
+  width: 10%;
+  height: 45%;
+  margin-right: 15px;
+  border-radius: 20px;
+  border: white 1px solid;
+}
+
+span {
+  color: hsl(0, 0%, 100%);
+}
+
+.attribution { 
+  color: hsl(215, 51%, 70%);
+  font-size: 11px; 
+  text-align: center; 
+}
+.attribution a { 
+  color: hsl(228, 45%, 44%); 
+}
