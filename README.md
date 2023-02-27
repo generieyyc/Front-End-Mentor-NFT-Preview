@@ -35,8 +35,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/generieyyc/Front-End-Mentor-NFT-Preview.git)
-- Live Site URL: [Add live site URL here](https://generieyyc.github.io/Front-End-Mentor-NFT-Preview/)
+- Solution URL: [Github Repo](https://github.com/generieyyc/Front-End-Mentor-NFT-Preview.git)
+- Live Site URL: [Github Live URL](https://generieyyc.github.io/Front-End-Mentor-NFT-Preview/)
 
 ## My process
 
